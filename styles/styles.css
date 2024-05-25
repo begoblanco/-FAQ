@@ -1,18 +1,25 @@
-html{
+html {
   display: flex;
 }
 
 aside {
-  height: 135vh;
   float: left;
+  width: 350px;
+  position: fixed;
   background-color: rgb(255, 255, 255);
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    padding-right: 20px;
+  padding-right: 20px;
+  font-size: 110%;
+  
 }
 
 aside h2 {
   text-align: center;
+}
+
+aside a:hover{
+  color: #064579;
 }
 
 #div1,
@@ -41,17 +48,20 @@ section {
   padding-right: 20px;
 }
 main {
+  margin-left: 400px;
+  max-width: fit-content;
+  font-size: 150%;
   text-align: justify;
   justify-content: center;
   align-items: center;
-  padding-left: 10px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  /* overflow: scroll;
+  overflow-x: hidden; */
 }
 
 pre {
   background-color: rgb(172, 170, 170);
   font-size: 120%;
   text-align: center;
-
 }
