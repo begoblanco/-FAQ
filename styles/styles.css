@@ -1,5 +1,6 @@
 html {
   display: flex;
+  height: 100%;
 }
 
 aside {
@@ -56,8 +57,9 @@ main {
   align-items: center;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  /* overflow: scroll;
-  overflow-x: hidden; */
+  overflow: scroll;
+  overflow-x: hidden; 
+  height: 70%;
 }
 
 pre {
